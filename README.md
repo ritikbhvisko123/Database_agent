@@ -22,7 +22,7 @@ python -m venv venv
 The database connection is stored in `configuration/environment.env`:
 
 ```text
-DATABASE_URL=postgresql://postgres:Vitm%400858@localhost:5432/company_ai
+DATABASE_URL=postgresql://postgres:abc%40123@localhost:5432/company_ai
 ```
 
 ## Claude Desktop Configuration
