@@ -44,7 +44,7 @@ Use this server entry:
         "C:\\Users\\HP\\Desktop\\learning\\mcp_claude\\mcp-postgres-navigator\\main.py"
       ],
       "env": {
-        "DATABASE_URL": "postgresql://postgres:Vitm%400858@localhost:5432/company_ai"
+        "DATABASE_URL": "postgresql://postgres:abc%40123@localhost:5432/company_ai"
       }
     }
   }
