@@ -101,7 +101,7 @@ This file stores the PostgreSQL database connection string.
 Current value:
 
 ```text
-DATABASE_URL=postgresql://postgres:Vitm%400858@localhost:5432/company_ai
+DATABASE_URL=postgresql://postgres:abc%40123@localhost:5432/company_ai
 ```
 
 The password contains `@`, so it must be URL encoded as `%40`.
