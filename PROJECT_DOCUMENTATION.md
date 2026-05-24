@@ -295,7 +295,7 @@ Host: localhost
 Port: 5432
 Database Name: company_ai
 User: postgres
-Password: Vitm@0858
+Password: abc@123
 ```
 
 Connection URL:
