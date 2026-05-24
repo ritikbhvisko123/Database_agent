@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "postgres-company-navigator": {
+      "command": "C:\\Users\\HP\\Desktop\\learning\\mcp_claude\\mcp-postgres-navigator\\venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\HP\\Desktop\\learning\\mcp_claude\\mcp-postgres-navigator\\main.py"
+      ],
+      "env": {
+        "DATABASE_URL": "postgresql://postgres:Vitm%400858@localhost:5432/company_ai"
+      }
+    }
+  },
+  "preferences": {
+    "coworkScheduledTasksEnabled": false,
+    "ccdScheduledTasksEnabled": false,
+    "coworkWebSearchEnabled": true,
+    "remoteToolsDeviceName": "desktop-a2qhqfh",
+    "epitaxyPrefs": {
+      "starred-local-code-sessions": [],
+      "starred-cowork-spaces": [],
+      "starred-session-groups": [],
+      "dframe-local-slice": {
+        "pinnedOrder": [],
+        "customGroupAssignments": {},
+        "customGroupOrder": {}
+      }
+    },
+    "bypassPermissionsGateByAccount": {
+      "2ca01c23-80c6-4da0-897d-80b4c870c4ac": false
+    }
+  }
+}
