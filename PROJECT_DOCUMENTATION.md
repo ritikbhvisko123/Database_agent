@@ -109,13 +109,13 @@ The password contains `@`, so it must be URL encoded as `%40`.
 Plain password:
 
 ```text
-Vitm@0858
+abc@123
 ```
 
 URL-safe password:
 
 ```text
-Vitm%400858
+abc%40123
 ```
 
 ### `core/__init__.py`
@@ -301,7 +301,7 @@ Password: Vitm@0858
 Connection URL:
 
 ```text
-postgresql://postgres:Vitm%400858@localhost:5432/company_ai
+postgresql://postgres:abc%40123@localhost:5432/company_ai
 ```
 
 PostgreSQL must be running locally for this MCP server to work.
@@ -325,7 +325,7 @@ Your config includes:
         "C:\\Users\\HP\\Desktop\\learning\\mcp_claude\\mcp-postgres-navigator\\main.py"
       ],
       "env": {
-        "DATABASE_URL": "postgresql://postgres:Vitm%400858@localhost:5432/company_ai"
+        "DATABASE_URL": "postgresql://postgres:abc%40123@localhost:5432/company_ai"
       }
     }
   }
